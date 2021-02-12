@@ -3,7 +3,7 @@ El código se basa en un menú donde se encuentran las opciones de pedir valores
 Se muestran 8 opciones al usuario de las cuales el tiene ingresar un valor del 1 al 8
 1. Ingresar valores (Pide la cantidad de números que desea ingresar el usuario, luego le pide que ingrese los datos separados por un punto y coma, y los lee en una cadena de caracteres para luego sacara los datos de la cadena y convertirlos a entero y finalmente guardarlos en un vector de enteros
 2. Mostrar promedio  (Con el vector de enteros, se calcula el promedio de esos datos y se muestra al usuario)
-3. Mostrar desviación estandar. (Teniendo el promedio, se calcula la desviaci�n estandar y se muestra al usuario)
+3. Mostrar desviación estandar. (Teniendo el promedio, se calcula la desviación estandar y se muestra al usuario)
 4. Mostrar valores máximo y mínimo. (Se hallan los valores máximo y mínimo y se muestran al usuario)
 5. Mostrar todo (Esta opción permite mostrar los datos ingresados y las opciones 2 a 4 en conjunto).
 6. Ingresar nuevos datos (En esta opción se reutiliza el código de la primera opción, pero los datos se guardan en un vector de enteros diferente)
