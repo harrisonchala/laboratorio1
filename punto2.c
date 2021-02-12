@@ -7,7 +7,7 @@
 #include <math.h>
 
 #define TAM 50
-#define L 5
+#define L 6
 
 
 void promedio(int[],int,float*);// Calcula y muestra el promedio de un vector de enteros
@@ -95,9 +95,9 @@ void pidedatos(char cadena_con_pc[TAM], int *len, int *n)
 	int cont=0, cant=0, pc=0;
 	do
 	{
-		printf("\n\n Ingrese cantidad de numeros(maximo 5)\n\n");
+		printf("\n\n Ingrese cantidad de numeros(maximo %d)\n\n", L);
 		scanf("%d", n);
-	}while(*n<=1 || *n>5 );
+	}while(*n<=1 || *n>L );
 
 	do
 	{
